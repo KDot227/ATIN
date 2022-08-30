@@ -7,8 +7,8 @@ def main():
             pass #ignore
         for line in f: #lines
            for character in line: #characters
-                tif = '​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​'
-                with open(f"{file}TIF.py", "a", encoding="utf-8") as f: #open the file and prite in that shi
+                tif = '​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​'#opposite of timmywag
+                with open(f"{file}TIF.py", "a", encoding="utf-8") as f: #open the file and write the stuffs
                     f.write(f"{character}{tif}") #write the character and then tif
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": #ngl I don't know what this does
+    main() #whole ahh function
